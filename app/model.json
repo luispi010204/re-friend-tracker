@@ -37,6 +37,14 @@
                         "width": 2
                     },
                     {
+                        "id": "activity",
+                        "type": "autocomplete",
+                        "name": "Activities",
+                        "url": "/activity",
+                        "form": "ActivityForm",
+                        "width": 2
+                    },
+                    {
                         "id": "location",
                         "type": "autocomplete",
                         "name": "Location",
@@ -116,7 +124,6 @@
                         "type": "text",
                         "name": "Activity",
                         "url": "/activity",
-                        "defaultKey": "activityKey",
                         "width": 2
                     },
                     {
